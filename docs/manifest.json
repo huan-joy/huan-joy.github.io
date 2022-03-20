@@ -1,0 +1,19 @@
+{
+    "name": "半枝",
+    "short_name": "半枝",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#fff",
+    "description": "My web app.",
+    "icons": [{
+        "src": "logo.png",
+        "sizes": "32x32",
+        "type": "image/webp"
+    },
+    {
+        "src": "logo.png",
+        "sizes": "512x512",
+        "type": "image/webp"
+    }],
+    "scope": "/es6/"
+}

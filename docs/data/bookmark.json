@@ -1,0 +1,143 @@
+{
+  "headList": [{
+      "title": "百度",
+      "url": "https://www.baidu.com",
+      "image": "https://dss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=900112607,431277708&fm=58",
+      "color": "blue"
+    },
+    {
+      "title": "Google",
+      "url": "https://www.google.com.hk/",
+      "color": "",
+      "image": ""
+    },
+    {
+      "title": "知乎",
+      "url": "https://www.zhihu.com",
+      "color": "blue",
+      "image": "https://pic4.zhimg.com/50/v2-4cd83ae3d6ca76dabecf001244a62310_720w.png?source=54b3c3a5"
+    },
+    {
+      "title": "芒果TV",
+      "url": "https://www.mgtv.com/",
+      "image": "",
+      "color": ""
+    },
+    {
+      "title": "优酷",
+      "url": "https://www.youku.com/",
+      "image": "http://gdown.baidu.com/img/0/512_512/7b5c0621daaec17e17914a734bde44b1.png",
+      "color": ""
+    },
+    {
+      "title": "爱奇艺",
+      "url": "https://www.iqiyi.com/",
+      "image": "http://gdown.baidu.com/img/0/512_512/ec5dd6ea7909f565ce083a5d94a4cdc3.png",
+      "color": ""
+    },
+    {
+      "title": "腾讯视频",
+      "url": "https://v.qq.com/",
+      "image": "",
+      "color": "blue"
+    },
+    {
+      "title": "哔哩哔哩",
+      "url": "https://www.bilibili.com/",
+      "image": "http://gdown.baidu.com/img/0/512_512/a35d1928bee38ea4d4ea99447de9677a.png",
+      "color": ""
+    }
+  ],
+
+  "cardList": [{
+      "title": "思否",
+      "url": "https://segmentfault.com/",
+      "color": "",
+      "image": ""
+    },
+    {
+      "title": "oschina",
+      "url": "https://my.oschina.net/huanjoy",
+      "color": "",
+      "image": ""
+    },
+    {
+      "title": "慕课网",
+      "url": "https://www.imooc.com/",
+      "color": "",
+      "image": "https://www.imooc.com/static/img/index/logo2020.png"
+    },
+    {
+      "title": "拉勾教育",
+      "url": "https://edu.lagou.com/",
+      "color": "#FBC546",
+      "image": ""
+    },
+    {
+      "title": "Web | MDN",
+      "url": "https://developer.mozilla.org/zh-CN/docs/Web",
+      "color": "",
+      "image": ""
+    },
+    {
+      "title": "JavaScript教程",
+      "url": "https://www.liaoxuefeng.com/wiki/1022910821149312",
+      "color": "",
+      "image": "https://www.liaoxuefeng.com/files/attachments/1025260348408640/l"
+    },
+    {
+      "title": "ES6 入门教程",
+      "url": "https://es6.ruanyifeng.com/",
+      "color": "",
+      "image": "https://es6.ruanyifeng.com/images/cover-3rd.jpg"
+    },
+    {
+      "title": "Vue.js",
+      "url": "https://cn.vuejs.org/",
+      "color": "",
+      "image": "https://cn.vuejs.org/images/logo.svg"
+    },
+    {
+      "title": "VuePress",
+      "url": "https://vuepress.vuejs.org/zh/",
+      "color": "",
+      "image": "https://vuepress.vuejs.org/hero.png"
+    },
+    {
+      "title": "ElementUI",
+      "url": "https://element.eleme.cn/#/zh-CN/component/transition",
+      "color": "",
+      "image": ""
+    },
+    {
+      "title": "高德地图",
+      "url": "https://www.amap.com/",
+      "color": "",
+      "image": ""
+    },
+    {
+      "title": "兼容性查询",
+      "url": "https://www.caniuse.com/",
+      "color": "",
+      "image": ""
+    },
+    {
+      "title": "echarts",
+      "url": "https://echarts.apache.org/zh/index.html",
+      "color": "",
+      "image": ""
+    },
+    {
+      "title": "highcharts",
+      "url": "https://www.highcharts.com.cn/",
+      "color": "",
+      "image": ""
+    },
+    {
+      "title": "codepen",
+      "url": "https://codepen.io/",
+      "color": "rgb(19, 20, 23) ",
+      "image": "https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png"
+    }
+  ]
+}

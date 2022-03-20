@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>2048小游戏 | 半枝</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="https://cdn.bootcdn.net/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <meta name="description" content="2048小游戏">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="半枝">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="msapplication-TileImage" content="/logo.png">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta http-equiv="Page-Enter" Content="blendTrans(Duration=2.5)">
+    <meta http-equiv="Page-Exit" Content="blendTrans(Duration=2.5)">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    
+    <link rel="preload" href="/assets/css/0.styles.d52aba4a.css" as="style"><link rel="preload" href="/assets/js/app.6e6cf65f.js" as="script"><link rel="preload" href="/assets/js/5.fd52df10.js" as="script"><link rel="preload" href="/assets/js/1.04ce7365.js" as="script"><link rel="preload" href="/assets/js/4.c5192c9e.js" as="script"><link rel="preload" href="/assets/js/28.cf0f4c93.js" as="script"><link rel="preload" href="/assets/js/8.daaf303a.js" as="script"><link rel="prefetch" href="/assets/js/10.51b518e2.js"><link rel="prefetch" href="/assets/js/11.842949d8.js"><link rel="prefetch" href="/assets/js/12.d1e278b1.js"><link rel="prefetch" href="/assets/js/13.9b444b58.js"><link rel="prefetch" href="/assets/js/14.e9bac405.js"><link rel="prefetch" href="/assets/js/15.74041e78.js"><link rel="prefetch" href="/assets/js/16.d7ad5f24.js"><link rel="prefetch" href="/assets/js/17.8dea2e2e.js"><link rel="prefetch" href="/assets/js/18.4d82bfb2.js"><link rel="prefetch" href="/assets/js/19.954fc6b5.js"><link rel="prefetch" href="/assets/js/20.c8299456.js"><link rel="prefetch" href="/assets/js/21.8aa77cde.js"><link rel="prefetch" href="/assets/js/22.f965e73f.js"><link rel="prefetch" href="/assets/js/23.b0947f98.js"><link rel="prefetch" href="/assets/js/24.685e69d9.js"><link rel="prefetch" href="/assets/js/25.184b65fd.js"><link rel="prefetch" href="/assets/js/26.074ae77c.js"><link rel="prefetch" href="/assets/js/27.92c7f38a.js"><link rel="prefetch" href="/assets/js/6.1c997d23.js"><link rel="prefetch" href="/assets/js/7.3b695436.js"><link rel="prefetch" href="/assets/js/9.0d675f6c.js"><link rel="prefetch" href="/assets/js/vuejs-paginate.b315127f.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.d52aba4a.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/logo.png" alt="半枝" class="logo"> <span class="site-name can-hide">半枝</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/blog/" class="nav-link">
+  Blog
+</a></div><div class="nav-item"><a href="/tags/" class="nav-link">
+  Tags
+</a></div><div class="nav-item"><a href="/demo/" class="nav-link router-link-active">
+  Demo
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/blog/" class="nav-link">
+  Blog
+</a></div><div class="nav-item"><a href="/tags/" class="nav-link">
+  Tags
+</a></div><div class="nav-item"><a href="/demo/" class="nav-link router-link-active">
+  Demo
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>2048小游戏</span> <!----></p> <!----></section></li></ul> </aside> <main class="page"> <!----> <div class="theme-default-content content__default"><div id="demo-2048"><button type="button" class="el-button el-button--primary"><!----><!----><span>New Game</span></button> <p>score: <span class="score">0</span></p> <div class="grid-container"><div id="cell-0-0" class="grid-cell"><!----></div><div id="cell-0-1" class="grid-cell"><!----></div><div id="cell-0-2" class="grid-cell"><!----></div><div id="cell-0-3" class="grid-cell"><!----></div><div id="cell-1-0" class="grid-cell"><!----></div><div id="cell-1-1" class="grid-cell"><!----></div><div id="cell-1-2" class="grid-cell"><!----></div><div id="cell-1-3" class="grid-cell"><!----></div><div id="cell-2-0" class="grid-cell"><!----></div><div id="cell-2-1" class="grid-cell"><!----></div><div id="cell-2-2" class="grid-cell"><!----></div><div id="cell-2-3" class="grid-cell"><!----></div><div id="cell-3-0" class="grid-cell"><!----></div><div id="cell-3-1" class="grid-cell"><!----></div><div id="cell-3-2" class="grid-cell"><!----></div><div id="cell-3-3" class="grid-cell"><!----></div></div> <script async="async" src="https://cdn.bootcdn.net/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> <!----> </main> <!----> <!----></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.6e6cf65f.js" defer></script><script src="/assets/js/5.fd52df10.js" defer></script><script src="/assets/js/1.04ce7365.js" defer></script><script src="/assets/js/4.c5192c9e.js" defer></script><script src="/assets/js/28.cf0f4c93.js" defer></script><script src="/assets/js/8.daaf303a.js" defer></script>
+  </body>
+</html>
